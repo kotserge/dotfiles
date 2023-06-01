@@ -65,10 +65,7 @@ I use [Firefox](https://www.mozilla.org/en-US/firefox/new/) as my main browser. 
 The look and feel of my dotfiles are heavily inspired by `Base16 Classic Dark` and a rice I found some years ago. Unfortunately I can't find the original repository anymore. If you know the original author, please let me know.
 
 I only use Arch Linux, so I can't guarantee that these dotfiles work on other distributions.
-<<<<<<< HEAD
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.md) file for details. Note that this only extends to my code and other modules, fonts, etc. are licensed under their respective licenses and do not fall under this license. If you find any license violations, please contact me immediately, as this is not intended.
-=======
->>>>>>> 14f5cab9758d69dcc1695c45d260ab41e7c0861a
