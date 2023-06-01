@@ -1,0 +1,24 @@
+#!/bin/sh
+primary="D0D0D0"
+secondary="151515"
+
+font="JetBrains Mono"
+background="$HOME/Pictures/Wallpapers/Current/Leaves.png"
+
+i3lock \
+  --nofork \
+  --ignore-empty-password \
+  --no-unlock-indicator \
+  --clock \
+  \
+  --time-str="%H:%M:%S" \
+  --time-font="$font" \
+  --time-size=72 \
+  --time-color=$primary \
+  \
+  --date-str="%A, %d %B" \
+  --date-font="$font" \
+  --date-size=18 \
+  --date-color=$primary \
+  \
+  -i $background -F
