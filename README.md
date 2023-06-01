@@ -62,6 +62,6 @@ I use [Firefox](https://www.mozilla.org/en-US/firefox/new/) as my main browser. 
 
 ## Notes
 
-The look and feel of my dotfiles is heavily inspired by a rice I found some years ago. Unfortunately I can't find the original repository anymore. If you know the original author, please let me know.
+The look and feel of my dotfiles are heavily inspired by `Base16 Classic Dark` and a rice I found some years ago. Unfortunately I can't find the original repository anymore. If you know the original author, please let me know.
 
 I only use Arch Linux, so I can't guarantee that these dotfiles work on other distributions.
