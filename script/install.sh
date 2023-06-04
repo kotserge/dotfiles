@@ -5,10 +5,10 @@
 echo "Updating dotfiles..."
 
 # config
-rsync -r --exclude lock ./config/* ~/.config/
+rsync -r ./config/* ~/.config/
 
 # home
-rsync -r ./zshrc ~/.zshrc
+rsync -r home ~
 
 # bin
 rsync -r ./bin/lock ~/.local/bin/lock
