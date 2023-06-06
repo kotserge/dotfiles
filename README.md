@@ -36,7 +36,7 @@ These are the wallpapers I currently use:
 I use [feh](https://feh.finalrewind.org/) to set the wallpaper.
 They are not included in this repository and have to be downloaded manually.
 
-Most of the configuration files assume that the wallpapers are located in `~/Pictures/Wallpapers/Current/` (I need to change that in the future).
+Most of the configuration files assume that the wallpapers are located in `~/Pictures/wallpapers/current/` (I need to change that in the future).
 
 ### Fonts
 

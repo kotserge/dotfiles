@@ -1,0 +1,12 @@
+# Unison Main-Storage Configuration
+root = /home/serge/
+root = /home/serge/Filesystems/main-storage/backup/
+
+force = /home/serge/
+nodeletion = /home/serge/Filesystems/main-storage/backup/
+
+path = Documents
+path = Development
+path = Pictures
+
+batch = true

@@ -1,9 +1,8 @@
-# This contains the configuration for unison
+# Unison Laptop configuration file
 root=/home/serge/
 root=ssh://serge@newarch/
 sshargs=-p XXXX -4
 
-# This is the directory that will be synchronized
 path=Documents
 path=Development
 path=Pictures
