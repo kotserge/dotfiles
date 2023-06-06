@@ -140,7 +140,7 @@ dir_node_exact_matches = {
     'Templates'                        : '',
     'Videos'                           : '',
     'Development'                      : '',
-    'USB'                              : '',
+    'Filesystems'                      : '',
     'Programs'                         : '',
 }
 
