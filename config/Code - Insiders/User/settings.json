@@ -1,11 +1,9 @@
 {
-    "workbench.colorTheme": "base16-classic-dark",
     "window.titleBarStyle": "custom",
     "editor.fontFamily": "'JetBrains Mono', 'Feather', 'monospace', monospace",
     "editor.fontWeight": "bold",
     "editor.detectIndentation": false,
     "editor.fontLigatures": true,
-    "window.zoomLevel": 1,
     "editor.minimap.renderCharacters": false,
     "workbench.iconTheme": "material-icon-theme",
     "editor.inlineSuggest.enabled": true,
@@ -14,5 +12,11 @@
         "plaintext": true,
         "markdown": true,
         "scminput": false
-    }
+    },
+    "workbench.colorTheme": "Base16 Classic Dark",
+    "window.zoomLevel": 1,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
 }

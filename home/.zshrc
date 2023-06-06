@@ -98,4 +98,10 @@ fi
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias ohmyzsh="mate ~/.oh-my-zsh
+#
+# Aliases"
+alias zshconfig="nvim ~/.zshrc"
+alias rm="rm -ri"
+alias tt="gio trash"
+alias c="clear"
