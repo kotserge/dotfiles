@@ -60,6 +60,14 @@ For polybar I use a custom weather module, which can be found [here](https://git
 
 I use [Firefox](https://www.mozilla.org/en-US/firefox/new/) as my main browser. I use this custom [theme](https://color.firefox.com/?theme=XQAAAALKAgAAAAAAAABBKYhm849SCicxcUMVgXcGHf3p79EhVPVD1H7xcfZ9PTtZXOCodCzcptP_sW-LVB7sq7TqP9gymAAg3cpSvSO-MRy-QJvv3UOz8NB6_XLCL0_AGJY8Dky8K1ubFRu8wObn2-bymZB6fZsS3D7fYJTuJsrNaShCyDmMXfp_2vJ9Ff43zbDTS1CBHwmt4Lebn4OTqRRsOW5nYjD3vJWhMpQ0AS6vNNp6aLVCYjD1P5mb1VpUlZxhVuKLZlaJH0S_g-NN3_-ppeECxXjik--W7ZIy6IijUK3a_mnjELPAazNaHkJasknTSVtkfT1UTuRkWrwD_0lgXBRClArPMaZYnjtCKyhokQUfflcC9SSMW2LoMv74EIdI).
 
+## Unison
+
+For synchronizing my data between my laptop and my desktop I use [Unison](https://github.com/bcpierce00/unison). You can find my configuration [here](/script/unison).
+I use a small shell script to start a ssh server on my desktop, so that I can connect to it from my laptop and use this to synchronize my data.
+
+Note, I went with a star topology and have my desktop as the central node. This makes it simpler to mirror my data to some hard drives hanging on my sata ports through a cronjob.
+This is not a good solution for backups, but I am fine with this pseudo-backup solution. I will extend this in the future, after I have time to set up a small custom NAS.
+
 ## Notes
 
 The look and feel of my dotfiles are heavily inspired by `Base16 Classic Dark` and a rice I found some years ago. Unfortunately I can't find the original repository anymore. If you know the original author, please let me know.
