@@ -6,10 +6,10 @@
   // Center
   width: 500px; 
   height: 600px;
-  
-  background: #111111;
-  background-alternative: #1A1A1A;
-  foreground: #bbbbbb;
+
+  background: #151515;
+  background-alternative: #2D2D2D;
+  foreground: #d0d0d0;
 
   background-color: @background;
   text-color: @foreground;

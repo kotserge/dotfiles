@@ -2,38 +2,39 @@
 
 set font 'JetBrains Mono Bold 10'
 
-set default-fg                  "#D0D0D0"
-set default-bg                  "#151515"
+set default-fg                  "#bbbbbb"
+set default-bg                  "#111111"
 
-set statusbar-fg                "#D0D0D0"
-set statusbar-bg                "#151515"
+set statusbar-fg                "#bbbbbb"
+set statusbar-bg                "#111111"
 
-set inputbar-fg                 "#D0D0D0"
-set inputbar-bg                 "#151515"
+set inputbar-fg                 "#bbbbbb"
+set inputbar-bg                 "#111111"
 
-set notification-fg             "#D0D0D0"
-set notification-bg             "#151515"
+set notification-fg             "#bbbbbb"
+set notification-bg             "#111111"
 
-set notification-warning-fg     "#F4BF75"
-set notification-warning-bg     "#151515"
+set notification-warning-fg     "#777777"
+set notification-warning-bg     "#111111"
 
-set notification-error-fg       "#AC4142"
-set notification-error-bg       "#151515"
+set notification-error-fg       "#8e8e8e"
+set notification-error-bg       "#111111"
 
-set highlight-color             "#75B5AA"
-set highlight-active-color      "#D0D0D0"
+set highlight-color             "#828282AA"
+set highlight-active-color      "#bbbbbb"
 
-set completion-fg               "#D0D0D0"
-set completion-bg               "#151515"
+set completion-fg               "#bbbbbb"
+set completion-bg               "#111111"
 
-set completion-highlight-fg     "#151515"
-set completion-highlight-bg     "#D0D0D0"
+set completion-highlight-fg     "#111111"
+set completion-highlight-bg     "#bbbbbb"
 
-set recolor-lightcolor          "#151515"
-set recolor-darkcolor           "#D0D0D0"
+set recolor-lightcolor          "#111111"
+set recolor-darkcolor           "#bbbbbb"
 
-set recolor                     "true"
+#set recolor                     "true"
 
+highlight-transparency	  	0.9
 
 # -------------------------- Style -------------------------------#
 

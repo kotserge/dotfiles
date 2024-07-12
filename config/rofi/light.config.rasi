@@ -7,9 +7,9 @@
   width: 500px; 
   height: 600px;
   
-  background: #111111;
-  background-alternative: #1A1A1A;
-  foreground: #bbbbbb;
+  background: #f0f0f0;
+  background-alternative: #d0d0d0;
+  foreground: #0f0f0f;
 
   background-color: @background;
   text-color: @foreground;
