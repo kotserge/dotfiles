@@ -59,6 +59,5 @@
         }
     ],
     "material-icon-theme.saturation": 1,
-    "workbench.productIconTheme": "bongocat",
     "vim.smartRelativeLine": true
 }

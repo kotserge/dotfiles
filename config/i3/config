@@ -102,16 +102,14 @@ bindsym $mod+r mode "resize"
 # i3
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+Shift+e exit
-bindsym $mod+Shift+w exec ~/.local/bin/lock
 
 # Volume
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%  
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
 bindsym XF86AudioMute        exec amixer set Master toggle
 
 # Brightness
-bindsym XF86MonBrightnessUp exec light -A 5 
+bindsym XF86MonBrightnessUp exec light -A 5
 bindsym XF86MonBrightnessDown exec light -U 5
 
 
@@ -121,7 +119,7 @@ bindsym XF86MonBrightnessDown exec light -U 5
 bindsym $mod+Return exec alacritty
 
 # Lockscreen
-bindsym $mod+Shift+s exec sh $HOME/.local/bin/lock 
+bindsym $mod+Shift+s exec sh $HOME/.local/bin/lock
 
 # Dunst History
 bindsym $mod+space exec dunstctl history-pop
@@ -134,7 +132,7 @@ bindsym $mod+s exec flameshot gui
 
 # -------------------------- Autostart Applications -------------------------------#
 
-# Display Current Wallpapers 
+# Display Current Wallpapers
 exec_always --no-startup-id ~/.fehbg
 
 exec_always --no-startup-id killall dunst; dunst
