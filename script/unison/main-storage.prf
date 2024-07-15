@@ -8,5 +8,6 @@ nodeletion = /home/serge/Filesystems/main-storage/backup/
 path = Documents
 path = Development
 path = Pictures
+path = Notes
 
 batch = true
