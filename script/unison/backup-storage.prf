@@ -5,7 +5,7 @@ root = /home/serge/filesystems/backup-storage/
 force = /home/serge/filesystems/main-storage/
 nodeletion = /home/serge/filesystems/backup-storage/
 
-path = archvive
+path = archive
 path = backup
 path = big-file-storage
 
