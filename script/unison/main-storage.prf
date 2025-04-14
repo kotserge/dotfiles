@@ -1,13 +1,13 @@
 # Unison Main-Storage Configuration
 root = /home/serge/
-root = /home/serge/Filesystems/main-storage/backup/
+root = /home/serge/filesystems/main-storage/backup/
 
 force = /home/serge/
-nodeletion = /home/serge/Filesystems/main-storage/backup/
+nodeletion = /home/serge/filesystems/main-storage/backup/
 
-path = Documents
-path = Development
-path = Pictures
-path = Notes
+path = development
+path = knowledge-base
+
+ignore = Path development/docker
 
 batch = true

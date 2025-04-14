@@ -13,7 +13,7 @@ background = "#151515"
 foreground = "#d0d0d0"
 
 [font]
-size = 6
+size = 8
 
 [font.bold]
 family = "JetBrains Mono"
@@ -31,7 +31,7 @@ style = "Bold Italic"
 family = "JetBrains Mono"
 style = "Bold"
 
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 
 [window.padding]

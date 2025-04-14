@@ -3,10 +3,8 @@ root=/home/serge/
 root=ssh://serge@newarch/
 sshargs=-p XXXX -4
 
-path=Documents
-path=Development
-path=Pictures
-path=Programs/keepass
-path=Notes
+path=development
+path=knowledge-base
+path=programs/keepass
 
-ignore=Path Development/docker
+ignore=Path development/docker

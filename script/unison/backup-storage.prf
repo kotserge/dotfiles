@@ -1,13 +1,12 @@
 # Unison Backup-Storage Configuration
-root = /home/serge/
-root = /home/serge/Filesystems/backup-storage/backup/
+root = /home/serge/filesystems/main-storage/
+root = /home/serge/filesystems/backup-storage/
 
-force = /home/serge/
-nodeletion = /home/serge/Filesystems/backup-storage/backup/
+force = /home/serge/filesystems/main-storage/
+nodeletion = /home/serge/filesystems/backup-storage/
 
-path = Documents
-path = Development
-path = Pictures
-path = Notes
+path = archvive
+path = backup
+path = big-file-storage
 
 batch = true

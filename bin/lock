@@ -3,7 +3,7 @@ primary="D0D0D0"
 secondary="151515"
 
 font="JetBrains Mono"
-background="$HOME/Pictures/wallpapers/current/Leaves.png"
+background="$HOME/path/to/Leaves.png"
 
 i3lock \
   --nofork \

@@ -7,9 +7,22 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "vim_mode": true,
-  "theme": "Mono Light",
-  "ui_font_size": 14,
-  "buffer_font_size": 14,
-  "relative_line_numbers": true
+    // Theme
+    "theme": "Fleet Dark",
+    "ui_font_size": 14,
+    "buffer_font_size": 12,
+    "buffer_font_family": "JetBrains Mono",
+    "buffer_line_height": "standard",
+    "scrollbar": {
+        "show": "never"
+    },
+
+    // Keybindings
+    "base_keymap": "JetBrains",
+    "vim_mode": true,
+    "relative_line_numbers": true,
+
+    // Other
+    "soft_wrap": "editor_width",
+    "tab_size": 4
 }

@@ -102,6 +102,7 @@ bindsym $mod+r mode "resize"
 # i3
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
+bindsym $mod+Shift+e exit
 
 # Volume
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
@@ -119,7 +120,7 @@ bindsym XF86MonBrightnessDown exec light -U 5
 bindsym $mod+Return exec alacritty
 
 # Lockscreen
-bindsym $mod+Shift+s exec sh $HOME/.local/bin/lock
+bindsym $mod+Shift+w exec sh $HOME/.local/bin/lock
 
 # Dunst History
 bindsym $mod+space exec dunstctl history-pop

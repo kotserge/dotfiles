@@ -1,40 +1,52 @@
 [
-  {
-    "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
-    "bindings": {
-      // put key-bindings here if you want them to work in normal & visual mode
+    {
+        "context": "Editor && (vim_mode == normal || vim_mode == visual) && !VimWaiting && !menu",
+        "bindings": {
+            // put key-bindings here if you want them to work in normal & visual mode
+        }
+    },
+    {
+        "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
+        "bindings": {
+            // put key-bindings here if you want them to work only in normal mode
+            "g D": "editor::GoToImplementation",
+
+            "ctrl-w": "pane::CloseActiveItem",
+
+            "shift-w shift-w": "workspace::ActivateNextPane",
+
+            "shift shift": "command_palette::Toggle",
+            "space p": "command_palette::Toggle",
+            "space t": "pane::DeploySearch",
+            "space f": "file_finder::Toggle",
+            "space b": "editor::ToggleBreakpoint"
+        }
+    },
+    {
+        "context": "Editor && vim_mode == visual && !VimWaiting && !menu",
+        "bindings": {
+            // visual, visual line & visual block modes
+        }
+    },
+    {
+        "context": "Editor && vim_mode == insert && !menu",
+        "bindings": {
+            // put key-bindings here if you want them to work in insert mode
+        }
+    },
+    {
+        "context": "EmptyPane || SharedScreen",
+        "bindings": {
+            // put key-bindings here (in addition to above) if you want them to
+            // work when no editor exists
+            "shift shift": "command_palette::Toggle",
+
+            "ctrl-w": "pane::CloseActiveItem",
+
+            "space p": "command_palette::Toggle",
+            "space t": "pane::DeploySearch",
+            "space f": "file_finder::Toggle",
+            "space b": "editor::ToggleBreakpoint"
+        }
     }
-  },
-  {
-    "context": "Editor && vim_mode == normal && !VimWaiting && !menu",
-    "bindings": {
-      // put key-bindings here if you want them to work only in normal mode
-      "down": ["workspace::SendKeystrokes", "4 j"],
-      "up": ["workspace::SendKeystrokes", "4 k"],
-      "g D": "editor::GoToImplementation",
-      "shift shift": "command_palette::Toggle"
-    }
-  },
-  {
-    "context": "Editor && vim_mode == visual && !VimWaiting && !menu",
-    "bindings": {
-      // visual, visual line & visual block modes
-    }
-  },
-  {
-    "context": "Editor && vim_mode == insert && !menu",
-    "bindings": {
-      // put key-bindings here if you want them to work in insert mode
-      // e.g.
-      // "j j": "vim::NormalBefore" // remap jj in insert mode to escape.
-    }
-  },
-  {
-    "context": "EmptyPane || SharedScreen",
-    "bindings": {
-      // put key-bindings here (in addition to above) if you want them to
-      // work when no editor exists
-      "shift shift": "command_palette::Toggle"
-    }
-  }
 ]
