@@ -8,3 +8,4 @@ path=knowledge-base
 path=programs/keepass
 
 ignore=Path development/docker
+ignore=Name .venv
