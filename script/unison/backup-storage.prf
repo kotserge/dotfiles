@@ -7,6 +7,6 @@ nodeletion = /home/serge/filesystems/backup-storage/
 
 path = archive
 path = backup
-path = big-file-storage
+path = big-file-storage 
 
 batch = true

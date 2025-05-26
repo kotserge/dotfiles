@@ -1,11 +1,13 @@
 # Unison Laptop configuration file
-root=/home/serge/
-root=ssh://serge@newarch/
-sshargs=-p XXXX -4
+root = /home/serge/
+root = ssh://serge@newarch/
+sshargs = -p XXXX -4
 
-path=development
-path=knowledge-base
-path=programs/keepass
+path = development
+path = knowledge-base
+path = programs/keepass
+path = media
+path = templates
 
-ignore=Path development/docker
-ignore=Name .venv
+ignore = Path development/docker
+ignore = Name .venv
