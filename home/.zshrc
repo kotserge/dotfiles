@@ -26,6 +26,6 @@ eval "$(zoxide init zsh)"
 source <(fzf --zsh)
 
 # Aliases
-alias rm="rm -ri"
+alias rm='echo "This is not the command you are looking for."; false'
 alias c="clear"
 alias cd=z
