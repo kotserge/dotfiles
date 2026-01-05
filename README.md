@@ -1,10 +1,10 @@
 # dotfiles
 
+Hey there. This repository contains my personal dotfiles. Nothing more to say.
+
 | ![](other/floating.png) | ![](other/lock.png) | ![](other/tiling.png) |
 | :---------------------: | :-----------------: | :-------------------: |
 |        Floating         |        Lock         |        Tiling         |
-
-Hey there. This repository contains my personal dotfiles. Nothing more to say.
 
 ## Apps
 
