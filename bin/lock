@@ -3,7 +3,7 @@ primary="D0D0D0"
 secondary="151515"
 
 font="JetBrains Mono"
-background="$HOME/media/wallpaper/wall.png"
+background="$HOME/media/wallpaper/leaves.jpg"
 
 swaylock \
   --ignore-empty-password \

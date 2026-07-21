@@ -1,0 +1,84 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "exclusive": true,
+
+    "modules-left": ["cpu", "memory", "battery", "network", "custom/updates"],
+    "modules-center": ["sway/workspaces"],
+    "modules-right": ["backlight", "pulseaudio", "custom/weather", "clock"],
+
+    "cpu": {
+        "format": "\uf4bc {usage}%",
+        "interval": 1,
+    },
+
+    "memory": {
+        "format": "\uf0c7 {percentage}%",
+        "interval": 10,
+    },
+
+    "battery": {
+        "bat": "BAT0",
+        "adapter": "ADP1",
+        "full-at": 95,
+        "interval": 30,
+        "format": "\uf244 {capacity}%",
+    },
+
+    "network": {
+        "tooltip-format": "via {gwaddr} {ifname}",
+        "format": "\udb81\udda9 {bandwidthDownBytes}",
+        "format-disconnected": "\udb81\uddaa Disconnected",
+        "interval": 1,
+    },
+
+    "custom/updates": {
+        "exec": "$HOME/.config/waybar/package.sh",
+        "interval": 90,
+        "justify": "center",
+        "format": "\udb80\udfd7 {}",
+        "return-type": "",
+    },
+
+    "backlight": {
+        "device": "amdgpu_bl0",
+        "format": "\uf522 {percent}%",
+        "on-scroll-up": "brightnessctl set 5%+",
+        "on-scroll-down": "brightnessctl set 5%-",
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": " Muted",
+        "format-icons": {
+            "default": [
+                "\uf466",
+                "\uf485",
+                "\uf485",
+                "\uf485",
+                "\uf485",
+                "\uf485",
+                "\uf485",
+                "\uf485",
+                "\uf485",
+            ],
+        },
+        "on-click": "pavucontrol",
+        "scroll-step": 5,
+    },
+
+    "custom/weather": {
+        "exec": "$HOME/.config/waybar/weather/weather.sh $HOME/.config/waybar/weather",
+        "interval": 900,
+        "justify": "center",
+        "format": "{}",
+        "return-type": "",
+    },
+
+    "clock": {
+        "format": "\uf133  {:%a, %d %b %Y, %H:%M}",
+        "format-alt": "\uf017 {:%H:%M}",
+        "tooltip": false,
+        "on-click": "mode",
+    },
+}

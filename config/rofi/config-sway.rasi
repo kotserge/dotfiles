@@ -1,0 +1,59 @@
+@theme "/dev/null"
+
+* {
+  font: "Jetbrains Mono Bold 10";
+
+  // Center
+  width: 700px;
+  height: 600px;
+  border-radius: 7px;
+
+  background: #151515;
+  background-alternative: #1A1A1A;
+  background-selected: #ebdbb3;
+  foreground: #bbbbbb;
+
+
+  background-color: @background;
+  text-color: @foreground;
+}
+
+mainbox {
+  children: [ inputbar, listview ];
+  padding: 1.5em;
+  spacing: 1em;
+}
+
+inputbar {
+  children: [ prompt, entry ];
+  background-color: @background-alternative;
+}
+
+prompt, entry {
+    vertical-align: 0.5;
+    background-color: @background-alternative;
+}
+
+prompt {
+   padding: 1.25em;
+}
+
+element {
+  orientation: vertical;
+  padding: 1em;
+}
+
+element-text {
+  background-color: inherit;
+}
+
+element selected {
+  background-color: @background-selected;
+  text-color: @background;
+}
+
+element-text selected {
+  text-color: @background;
+}
+
+/* vim:ft=css
