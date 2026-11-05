@@ -21,7 +21,7 @@ else
 fi
 
 #
-eval $(thefuck --alias fuck)
+#eval $(thefuck --alias fuck)
 eval "$(zoxide init zsh)"
 source <(fzf --zsh)
 
@@ -29,3 +29,4 @@ source <(fzf --zsh)
 alias rm="rm -ri"
 alias c="clear"
 alias cd=z
+export PATH="$HOME/.local/bin:$PATH"

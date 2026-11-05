@@ -1,4 +1,26 @@
 {
+    "outline_panel": {
+        "dock": "left"
+    },
+    "git_panel": {
+        "dock": "left"
+    },
+    "agent": {
+        "threads_sidebar": {
+            "position": "right"
+        },
+        "dock": "right",
+        "favorite_models": [],
+        "model_parameters": []
+    },
+    "project_panel": {
+        "dock": "left"
+    },
+    "agent_servers": {
+        "claude-acp": {
+            "type": "registry"
+        }
+    },
     "ui_font_size": 14.0,
     "buffer_font_size": 13.0,
     "telemetry": {
